@@ -109,7 +109,7 @@ const Details = ({ route }) => {
             }}
           >
             <Text style={{ color: "white", fontSize: 18, fontWeight: "600" }}>
-              And To Basket
+              Mua ngay
             </Text>
           </TouchableOpacity>
         </View>

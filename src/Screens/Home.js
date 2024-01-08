@@ -15,9 +15,9 @@ const Home = () => {
       <HomeIcon />
       <HomeSearch/>
       <HomeBanner/>
-      <ProductsTile title="IPhone Pro Max"/>
+      <ProductsTile title="Bánh bán chạy"/>
       <ProductsCarousel data={fruits}/>
-      <ProductsTile title="AirPods                "/>
+      <ProductsTile title="Bánh mới nhất                "/>
       <ProductsCarousel data={vegetables}/>
       
     </SafeAreaView>

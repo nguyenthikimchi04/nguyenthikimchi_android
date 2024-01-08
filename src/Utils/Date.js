@@ -54,19 +54,19 @@ export const vegetables = [
 ];
 export const Dropdown = [
   {
-   title:"Product-Details",
+    title: "Product-Details",
     content:
-      "bánh được làm thủ công",
+      "Bánh được làm thủ công",
   },
   {
-    title:"Nutritions",
+    title: "Mô tả",
     content:
-      "IPhone Pro Max",
+      "",
   },
   {
-    title:"Reviews",
+    title: "Cách bảo quản",
     content:
-      "4-reviews iphone",
+      "Bánh dùng trong ngày",
   },
-  
+
 ];
