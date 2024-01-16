@@ -15,9 +15,9 @@ const Home = () => {
       <HomeIcon />
       <HomeSearch/>
       <HomeBanner/>
-      <ProductsTile title="Bánh bán chạy"/>
+      <ProductsTile title="Sản phẩm mới"/>
       <ProductsCarousel data={fruits}/>
-      <ProductsTile title="Bánh mới nhất                "/>
+      <ProductsTile title="Sản phẩm bán chạy                "/>
       <ProductsCarousel data={vegetables}/>
       
     </SafeAreaView>

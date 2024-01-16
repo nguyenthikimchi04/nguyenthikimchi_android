@@ -13,45 +13,33 @@ import { Store } from "./Redux/Store";
 import Orderplaced from "./src/Screens/Orderplaced";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-import { FontAwesome } from '@expo/vector-icons';
+import { FontAwesome } from '@expo/vector-icons'; 
 import { Ionicons } from '@expo/vector-icons';
 
 const Tab = createBottomTabNavigator();
 export const TabNavigation = () => {
   return (
     <Tab.Navigator initialRouteName="Home"
-      screeeOptions={{
-        headerShown: false,
-      }} >
-
-
-      <Tab.Screen name="Home" component={Home} options={{
-        headerShown: false, tabBarIcon: ({ focused }) => {
-          return (
-            <View style={{ alignItems: "center", justifyContent: "center" }}>
+    screeeOptions={{
+    headerShown:false,  
+    }} >
+     
+    
+     <Tab.Screen name="Home" component={Home} options={{headerShown: false,tabBarIcon:({focused})=>{return(
+            <View style={{alignItems:"center",justifyContent:"center"}}>
               <FontAwesome name="home" size={24} color="gray" />
             </View>
-          )
-        }
-      }} />
-      <Tab.Screen name="Cart" component={Cart} options={{
-        headerShown: false, tabBarIcon: ({ focused }) => {
-          return (
-            <View style={{ alignItems: "center", justifyContent: "center" }}>
-              <FontAwesome name="shopping-cart" size={24} color="gray" />
+        )} }}/>
+        <Tab.Screen name="Cart" component={Cart} options={{headerShown: false,tabBarIcon:({focused})=>{return(
+            <View style={{alignItems:"center",justifyContent:"center"}}>
+             <FontAwesome name="shopping-cart" size={24} color="gray" />
             </View>
-          )
-        }
-      }} />
-      <Tab.Screen name="Login" component={Login} options={{
-        headerShown: false, tabBarIcon: ({ focused }) => {
-          return (
-            <View style={{ alignItems: "center", justifyContent: "center" }}>
+        )} }}/>
+        <Tab.Screen name="Login" component={Login} options={{headerShown: false,tabBarIcon:({focused})=>{return(
+            <View style={{alignItems:"center",justifyContent:"center"}}>
               <Ionicons name="people" size={24} color="gray" />
             </View>
-          )
-        }
-      }} />
+        )} }}/>
     </Tab.Navigator>
   );
 };
