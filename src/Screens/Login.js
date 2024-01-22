@@ -48,13 +48,14 @@ const Login = () => {
         <View style={{ paddingHorizontal: 20, marginTop: 0 }}>
           <Text
             style={{
-              color: myColors.primary,
+              color: "dodgerblue",
               fontSize: 35,
               fontWeight: "500",
               marginLeft: 20,
+              alignItems: "center",
             }}
           >
-            Loging
+          Đăng nhập
           </Text>
 
           <Text
@@ -65,9 +66,10 @@ const Login = () => {
               marginTop: 10,
               marginBot: 20,
               marginLeft: 20,
+              
             }}
           >
-            Enter your emial and password
+            Nhập Email và Mật khẩu
           </Text>
           <Text
             style={{
@@ -104,7 +106,7 @@ const Login = () => {
               marginLeft: 20,
             }}
           >
-            Password
+            Mật khẩu
           </Text>
           <View
             style={{
@@ -154,12 +156,12 @@ const Login = () => {
               textAlign: "right",
             }}
           >
-            Forgot Password ?
+            Quên mật khẩu ?
           </Text>
           <TouchableOpacity
             onPress={loginUser}
             style={{
-              backgroundColor: myColors.primary,
+              backgroundColor: "dodgerblue",
               marginTop: 20,
               height: 60,
               width: 300,
@@ -177,7 +179,7 @@ const Login = () => {
                 fontWeight: "500",
               }}
             >
-              Log In
+              Đăng nhập
             </Text>
           </TouchableOpacity>
 
@@ -196,7 +198,7 @@ const Login = () => {
                 fontWeight: "400",
               }}
             >
-              Don't have an ac accountn ?
+              Không có tài khoản  ?
             </Text>
             <TouchableOpacity
               onPress={() => {
@@ -206,13 +208,13 @@ const Login = () => {
               <Text
                 style={{
                   fontSize: 15,
-                  color: myColors.primary,
+                  color:"dodgerblue",
                   fontWeight: 600,
 
 
                 }}
               >
-                Sign Up
+                Đăng ký
               </Text>
             </TouchableOpacity>
 

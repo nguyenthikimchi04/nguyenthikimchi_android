@@ -74,13 +74,13 @@ const Signup = () => {
         <View style={{ paddingHorizontal: 20, marginTop: 0 }}>
           <Text
             style={{
-              color: myColors.primary,
+              color: "dodgerblue",
               fontSize: 35,
               fontWeight: "500",
               marginLeft: 20,
             }}
           >
-            Sign Up
+            Đăng ký
           </Text>
 
           <Text
@@ -93,7 +93,7 @@ const Signup = () => {
               marginLeft: 20,
             }}
           >
-            Enter your credentials to continue
+            Yêu cầu nhập dầy đủ thông tin
           </Text>
           <Text
             style={{
@@ -104,7 +104,7 @@ const Signup = () => {
               marginLeft: 20,
             }}
           >
-            UseName{"\n"}
+            Họ và tên{"\n"}
           </Text>
           <TextInput
             maxLength={10}
@@ -158,7 +158,7 @@ const Signup = () => {
               marginLeft: 20,
             }}
           >
-            Password
+            Mật khẩu
           </Text>
           <View
             style={{
@@ -209,13 +209,14 @@ const Signup = () => {
               opacity: 0.7,
             }}
           >
-            By continuing you agree to yuor Terms of Service and Service and
-            Privacy Policy
+
+            Bằng cách tiếp tục, bạn đồng ý với Điều khoản dịch vụ và dịch vụ của bạn và
+            Chính sách bảo mật
           </Text>
           <TouchableOpacity
             onPress={userAccount}
             style={{
-              backgroundColor: myColors.primary,
+              backgroundColor: "dodgerblue",
               marginTop: 20,
               height: 60,
               width: 300,
@@ -232,7 +233,7 @@ const Signup = () => {
                 fontWeight: "500",
               }}
             >
-              Sign Up
+              Đăng ký
             </Text>
           </TouchableOpacity>
 
@@ -244,7 +245,7 @@ const Signup = () => {
             }}
           >
             <Text style={{ fontSize: 16, marginTop: 10 }}>
-              Already have an ac accountn ?
+              Đã có tài khoản ?
             </Text>
             <TouchableOpacity
               onPress={() => {
@@ -254,11 +255,11 @@ const Signup = () => {
               <Text
                 style={{
                   fontSize: 15,
-                  color: myColors.primary,
+                  color: "dodgerblue",
                   fontWeight: 600,
                 }}
               >
-                Login Now
+                Đăng nhập
               </Text>
             </TouchableOpacity>
           </View>

@@ -54,12 +54,12 @@ const ProductsCarousel = ({ data }) => {
                 }}
               >
                 <Text style={{ color: "#990000", fontWeight: "bold" }}>
-                  {item.price} USD
+                  {item.price}.000VND
                 </Text>
                 <AntDesign
                   name="pluscircle"
                   size={22}
-                  color="#00AA00"
+                  color="dodgerblue"
                   onPress={() => {
                     dispatch(addToCart(item));
                   }}

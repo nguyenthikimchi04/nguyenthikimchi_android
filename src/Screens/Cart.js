@@ -38,7 +38,7 @@ const Cart = () => {
     >
      
       <Text style={{ textAlign: "center", fontSize: 23, fontWeight: "600" }}>
-        My Cart
+        Giỏ hàng
       </Text>
       <View>
         <FlatList
@@ -149,7 +149,7 @@ const Cart = () => {
                       marginTop: 25,
                     }}
                   >
-                    {item.price * item.quantity} USD
+                    {item.price * item.quantity}.000VND
                   </Text>
                 </View>
               </View>
@@ -163,7 +163,7 @@ const Cart = () => {
             nav.navigate(Orderplaced);
           }}
           style={{
-            backgroundColor: myColors.primary,
+            backgroundColor: "dodgerblue",
             borderRadius: 20,
             height: 60,
             justifyContent: "center",
@@ -171,7 +171,7 @@ const Cart = () => {
           }}
         >
           <Text style={{ color: "white", fontSize: 18, fontWeight: "700" }}>
-            Go To CheckOut
+            Thanh toán
           </Text>
         </TouchableOpacity>
       </View>

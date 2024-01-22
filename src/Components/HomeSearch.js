@@ -16,7 +16,7 @@ const HomeSearch = () => {
       }}
     >
       <FontAwesome name="search" size={24} color="black" />
-      <TextInput style={{ flex: 1 }} placeholder="Search Store" />
+      <TextInput style={{ flex: 1 }} placeholder="Tìm kiếm" />
     </View>
   );
 };

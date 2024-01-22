@@ -45,7 +45,7 @@ const Splash = () => {
               letterSpacing: 5,
             }}
           >
-            online shopping
+            Mua sắm trực tuyến
           </Text>
         </View>
       </View>

@@ -76,7 +76,7 @@ const Details = ({ route }) => {
         </View>
         <Text style={{ fontSize: 16, color: "gray",marginBottom:4,marginTop:4 }}>Quantity, Price</Text>
         <Text style={{ fontSize: 20, color: "red", fontWeight: "bold" }}>
-          {price} USD
+          {price}.000VND
         </Text>
         <DropBox />
         {/* <View style={{
@@ -101,7 +101,7 @@ const Details = ({ route }) => {
               nav.navigate("Cart");
             }}
             style={{
-              backgroundColor: myColors.primary,
+              backgroundColor: "dodgerblue",
               borderRadius: 20,
               height: 60,
               justifyContent: "center",
